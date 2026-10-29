@@ -21,9 +21,9 @@
 
 | Metric | Value |
 |--------|-------|
-| Number of source folders (top-level subfolders under `_inbox/`) | |
-| Total files in `_inbox/` (non-junk) | |
-| Number of work-PC-only files (see archive/SOURCES_local.md) | |
-| Number of patient-level files listed (see archive/SOURCES_local.md) | |
+| Number of source folders (top-level subfolders under `_inbox/`) | 0 named subfolders (flat copy; 1 empty `az/` folder) |
+| Total files in `_inbox/` (non-junk) | 46 |
+| Number of work-PC-only files (see archive/SOURCES_local.md) | 0 (none listed) |
+| Number of patient-level files listed (see archive/SOURCES_local.md) | 0 (sas7bdat files in _inbox confirmed as results tables by Gerard) |
 
-Gerard reviewed the source list: [ ] yes
+Gerard reviewed the source list: [x] yes
