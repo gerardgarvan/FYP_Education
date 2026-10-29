@@ -11,7 +11,7 @@ Gerard runs them in SAS on the work PC and the log is reviewed.
 
 ## Phases
 
-- [ ] **Phase 1: Inventory & Triage** - Scan the copied mess, find duplicates and versions, approve a file map, move files
+- [x] **Phase 1: Inventory & Triage** - Scan the copied mess, find duplicates and versions, approve a file map, move files
 - [ ] **Phase 2: Repo Layout & Config** - Fold legacy code into the numbered pipeline; single SAS/R config; no hard-coded paths
 - [ ] **Phase 3: FIBRO Import & Clean** [work PC] - fyp.fibro_clean with QC checked against the deck
 - [ ] **Phase 4: Clarity Concept Discovery** [work PC] - Profile `Patent Education Indicator\` and settle what CLARITY_CONCEPT is for
@@ -36,7 +36,7 @@ Gerard runs them in SAS on the work PC and the log is reviewed.
 - [x] 01-01-PLAN.md — Harden inventory.py (D-05) and apply_file_map.py (D-19); smoke-test both
 - [x] 01-02-PLAN.md — Confirm SOURCES.md, run the scan, review duplicates/versions/data and missing references
 - [x] 01-03-PLAN.md — Resolve REVIEW rows (Claude then Gerard), approve file_map.csv, clean dry run
-- [ ] 01-04-PLAN.md — Apply the map, verify moves, close .gitignore (D-14), PHI scan, Phase 1 commit
+- [x] 01-04-PLAN.md — Apply the map, verify moves, close .gitignore (D-14), PHI scan, Phase 1 commit
 **Gate**: Human approval of `file_map.csv` before `--apply`
 
 ### Phase 2: Repo Layout & Config
@@ -114,7 +114,7 @@ Gerard runs them in SAS on the work PC and the log is reviewed.
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Inventory & Triage | 2/4 | In Progress|  |
+| 1. Inventory & Triage | 4/4 | Complete | 2026-10-28 |
 | 2. Repo Layout & Config | 0/TBD | Not started | - |
 | 3. FIBRO Import & Clean | 0/TBD | Not started | - |
 | 4. Clarity Concept Discovery | 0/TBD | Not started | - |
