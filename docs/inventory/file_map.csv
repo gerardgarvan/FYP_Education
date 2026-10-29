@@ -7,27 +7,27 @@ id,rel_path,category,proposed_disposition,proposed_dest,final_disposition,final_
 6,MT_educ_stacked_MT_ASA.png,image,KEEP,docs/reference,,,
 7,MT_educ_stacked_MT_Frailty_Score.png,image,KEEP,docs/reference,,,
 8,MT_educ_stacked_Mortality_1Y.png,image,KEEP,docs/reference,,,
-9,MT_educ_stacked_bars.csv,delimited,DATA,archive/data_local,,,
-10,MT_educ_stacked_bars.xlsx,spreadsheet,DATA,archive/data_local,,,
+9,MT_educ_stacked_bars.csv,delimited,DATA,archive/data_local,DATA,archive/data_local,Aggregate stacked-bar chart data (MT education by ASA/frailty/mortality). Not patient-level. Keep in archive/data_local.
+10,MT_educ_stacked_bars.xlsx,spreadsheet,DATA,archive/data_local,DATA,archive/data_local,Aggregate stacked-bar chart data (Excel version). Not patient-level. Keep in archive/data_local.
 11,MT_outline.docx,word,KEEP,docs/reference,,,
-12,Prelim_Results.zip,archive,REVIEW,,,,
-13,Topper.Rproj,project,REVIEW,,,,
-14,az.zip,archive,REVIEW,,,,
+12,Prelim_Results.zip,archive,REVIEW,,ARCHIVE,archive/misc,"Zip contains only docs/results (MT_DEFNS.docx, 2 results docx) — not patient-level; duplicates of already-inventoried files. Archive as misc."
+13,Topper.Rproj,project,REVIEW,,ARCHIVE,archive/misc,Legacy .Rproj from old working directory. Repo has its own FYP_Education.Rproj; .Rproj files not in legacy whitelist (D-13).
+14,az.zip,archive,REVIEW,,ARCHIVE,archive/misc,Zip contains code and results docs already inventoried individually in _inbox. Duplicate archive bundle; not patient-level data. Archive as misc.
 15,code.docx,word,KEEP,docs/reference,,,
 16,code_gg.docx,word,KEEP,docs/reference,,,
 17,code_gg_cleaned.sas,sas_program,KEEP,legacy/sas,,,
-18,create_data_KP_Aug_19_2026_CWG.sas,sas_program,KEEP,legacy/sas,,,
+18,create_data_KP_Aug_19_2026_CWG.sas,sas_program,KEEP,legacy/sas,ARCHIVE,archive/other_projects/INS,Faith Kimmet INS project (D-13); references I:\PeCAN Research Individual Folders\Faith Kimmet\INS_August_2026. Not related to FYP/MT education project.
 19,create_data_MT_Aug_26_2026_CWG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 20,create_data_MT_Aug_27_2026_CWG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 21,create_data_MT_Oct_28_2026_GJG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 22,create_data_MT_Sept_25_2026_CWG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 23,create_data_MT_Sept_26_2026_CWG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 24,create_data_MT_Sept_28_2026_GJG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
-25,create_data_MT_Sept_30_2026_GJG.sas,sas_program,KEEP,legacy/sas,,,
+25,create_data_MT_Sept_30_2026_GJG.sas,sas_program,KEEP,legacy/sas,KEEP,legacy/sas,"Latest create_data family; defines MT_EDUC_GROUP, MT_ASA, MT_Frailty_Score cut points (Q-07). Uses P:\ (not I:\). Needed for Phase 2 cut-point confirmation."
 26,fibro_fyp_analysis.sas,sas_program,KEEP,legacy/sas,,,
-27,fyp_fit.sas7bdat,sas_data,DATA,archive/data_local,,,
-28,fyp_lrtests.sas7bdat,sas_data,DATA,archive/data_local,,,
-29,fyp_table1.sas7bdat,sas_data,DATA,archive/data_local,,,
+27,fyp_fit.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Model fit statistics (fyp_fit = goodness-of-fit results). Summary results, not patient-level rows. 128 KB = minimum SAS file size. Keep in archive/data_local; not added to SOURCES_local.md patient-level list."
+28,fyp_lrtests.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Likelihood-ratio test results (fyp_lrtests). Summary results, not patient-level rows. 128 KB = minimum SAS file size. Keep in archive/data_local; not added to SOURCES_local.md patient-level list."
+29,fyp_table1.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Table 1 frequency/summary data (fyp_table1). Aggregate results, not patient-level rows. 128 KB = minimum SAS file size. Keep in archive/data_local; not added to SOURCES_local.md patient-level list."
 30,import_clean_fibro_master.sas,sas_program,KEEP,legacy/sas,,,
 31,make_MT_educ_stacked_bars.sas,sas_program,KEEP,legacy/sas,,,
 32,plot_MT_educ_stacked_bars.R,r_program,KEEP,legacy/R,,,

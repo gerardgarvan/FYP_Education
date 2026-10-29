@@ -303,6 +303,7 @@ def write_missing_references(out_dir, rows):
         # count == 0: not resolved by name. Classify by path prefix.
         ref_upper = ref.upper()
         if (ref_upper.startswith("P:") or ref_upper.startswith("P:\\") or
+                ref_upper.startswith("I:") or ref_upper.startswith("I:\\") or
                 ref.startswith("\\\\") or ref.lower().startswith("/blue/") or
                 ref.lower().startswith("/mnt/")):
             on_p.append((ref, src_path, None))

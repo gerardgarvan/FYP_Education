@@ -13,6 +13,12 @@ References built from macro variables or string concatenation. A human must insp
 
 References to the P: drive or UNC share. Not a gap — these files live on the work PC.
 
+- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `code_gg_cleaned.sas`)
+- `I:\PeCAN Research\06 Individual Folders\Faith Kimmet\INS_August_2026` (from `create_data_KP_Aug_19_2026_CWG.sas`)
+- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Aug_26_2026_CWG.sas`)
+- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Aug_27_2026_CWG.sas`)
+- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Sept_25_2026_CWG.sas`)
+- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Sept_26_2026_CWG.sas`)
 - `P:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Sept_28_2026_GJG.sas`)
 - `P:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Sept_30_2026_GJG.sas`)
 - `P:/PeCAN Research/06 Individual Folders/Mackenzie Topper` (from `fibro_fyp_analysis.sas`)
@@ -23,12 +29,7 @@ References to the P: drive or UNC share. Not a gap — these files live on the w
 
 References to local paths or bare filenames with no matching file in the inventory. Gerard: check these against SOURCES.md.
 
-- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `code_gg_cleaned.sas`)
-- `I:\PeCAN Research\06 Individual Folders\Faith Kimmet\INS_August_2026` (from `create_data_KP_Aug_19_2026_CWG.sas`)
-- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Aug_26_2026_CWG.sas`)
-- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Aug_27_2026_CWG.sas`)
-- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Sept_25_2026_CWG.sas`)
-- `I:\PeCAN Master Data\Garvan\Mackenzie_Topper` (from `create_data_MT_Sept_26_2026_CWG.sas`)
+_(none)_
 
 ## Folders referenced
 
