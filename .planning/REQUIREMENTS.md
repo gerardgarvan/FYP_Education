@@ -8,9 +8,9 @@
 ### Organization (home PC)
 
 - [x] **ORG-01**: Every file copied into `_inbox/` is inventoried (path, type, size, modified date, SHA-256, keywords, paths it references) in `docs/inventory/inventory.csv`
-- [ ] **ORG-02**: Exact duplicates are grouped and one canonical copy is chosen per group
-- [ ] **ORG-03**: Version families (same file, different dates/initials/_v2/_final) are grouped and the current version identified
-- [ ] **ORG-04**: Data files and possible PHI are flagged `DATA` and kept out of every tracked folder
+- [x] **ORG-02**: Exact duplicates are grouped and one canonical copy is chosen per group
+- [x] **ORG-03**: Version families (same file, different dates/initials/_v2/_final) are grouped and the current version identified
+- [x] **ORG-04**: Data files and possible PHI are flagged `DATA` and kept out of every tracked folder
 - [x] **ORG-05**: Gerard approves `docs/inventory/file_map.csv` before anything moves
 - [x] **ORG-06**: Approved files are moved into `legacy/`, `docs/reference/` or `archive/`; nothing is deleted; every move is logged in `docs/inventory/moves_log.csv`
 - [ ] **ORG-07**: `docs/FILE_MAP.md` explains, in plain language, what each kept legacy program did and which new pipeline program replaces it

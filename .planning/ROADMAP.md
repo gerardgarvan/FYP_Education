@@ -34,7 +34,7 @@ Gerard runs them in SAS on the work PC and the log is reviewed.
   5. `git status` shows no data files staged
 **Plans**: 4 plans
 - [x] 01-01-PLAN.md — Harden inventory.py (D-05) and apply_file_map.py (D-19); smoke-test both
-- [ ] 01-02-PLAN.md — Confirm SOURCES.md, run the scan, review duplicates/versions/data and missing references
+- [x] 01-02-PLAN.md — Confirm SOURCES.md, run the scan, review duplicates/versions/data and missing references
 - [ ] 01-03-PLAN.md — Resolve REVIEW rows (Claude then Gerard), approve file_map.csv, clean dry run
 - [ ] 01-04-PLAN.md — Apply the map, verify moves, close .gitignore (D-14), PHI scan, Phase 1 commit
 **Gate**: Human approval of `file_map.csv` before `--apply`
@@ -114,7 +114,7 @@ Gerard runs them in SAS on the work PC and the log is reviewed.
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Inventory & Triage | 1/4 | In Progress|  |
+| 1. Inventory & Triage | 2/4 | In Progress|  |
 | 2. Repo Layout & Config | 0/TBD | Not started | - |
 | 3. FIBRO Import & Clean | 0/TBD | Not started | - |
 | 4. Clarity Concept Discovery | 0/TBD | Not started | - |
