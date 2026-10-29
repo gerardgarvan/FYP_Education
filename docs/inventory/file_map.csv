@@ -19,29 +19,29 @@ id,rel_path,category,proposed_disposition,proposed_dest,final_disposition,final_
 18,create_data_KP_Aug_19_2026_CWG.sas,sas_program,KEEP,legacy/sas,ARCHIVE,archive/other_projects/INS,Faith Kimmet INS project (D-13); references I:\PeCAN Research Individual Folders\Faith Kimmet\INS_August_2026. Not related to FYP/MT education project.
 19,create_data_MT_Aug_26_2026_CWG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 20,create_data_MT_Aug_27_2026_CWG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
-21,create_data_MT_Oct_28_2026_GJG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
+21,create_data_MT_Oct_28_2026_GJG.sas,sas_program,ARCHIVE,archive/old_versions/sas,KEEP,legacy/sas,Current definitions file (Oct 28 = most recent by filename date). KEEP alongside Sept 30 so Phase 2 can diff MT_EDUC_GROUP/ASA/frailty cut-point changes (Q-07).
 22,create_data_MT_Sept_25_2026_CWG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 23,create_data_MT_Sept_26_2026_CWG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 24,create_data_MT_Sept_28_2026_GJG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
-25,create_data_MT_Sept_30_2026_GJG.sas,sas_program,KEEP,legacy/sas,KEEP,legacy/sas,"Latest create_data family; defines MT_EDUC_GROUP, MT_ASA, MT_Frailty_Score cut points (Q-07). Uses P:\ (not I:\). Needed for Phase 2 cut-point confirmation."
+25,create_data_MT_Sept_30_2026_GJG.sas,sas_program,KEEP,legacy/sas,KEEP,legacy/sas,Also KEEP (Gerard confirmed). Phase 2 needs to diff against Oct 28 version for MT_EDUC_GROUP/ASA/frailty cut-point changes (Q-07). Uses P:\ (not I:\).
 26,fibro_fyp_analysis.sas,sas_program,KEEP,legacy/sas,,,
-27,fyp_fit.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Model fit statistics (fyp_fit = goodness-of-fit results). Summary results, not patient-level rows. 128 KB = minimum SAS file size. Keep in archive/data_local; not added to SOURCES_local.md patient-level list."
-28,fyp_lrtests.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Likelihood-ratio test results (fyp_lrtests). Summary results, not patient-level rows. 128 KB = minimum SAS file size. Keep in archive/data_local; not added to SOURCES_local.md patient-level list."
-29,fyp_table1.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Table 1 frequency/summary data (fyp_table1). Aggregate results, not patient-level rows. 128 KB = minimum SAS file size. Keep in archive/data_local; not added to SOURCES_local.md patient-level list."
+27,fyp_fit.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Model fit statistics: 3 rows, cols=[Model,ModelLabel,m2ll,AIC,c,N,Events,k]. Summary results, not patient-level. No SOURCES_local.md entry needed."
+28,fyp_lrtests.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Likelihood-ratio tests: 2 rows, cols=[Comparison,Ptxt,LR,df,P]. Summary results, not patient-level. No SOURCES_local.md entry needed."
+29,fyp_table1.sas7bdat,sas_data,DATA,archive/data_local,DATA,archive/data_local,"Table 1 summary: 23 rows, cols=[Characteristic,Level,Overall,Alive,Died,P]. Aggregate results, not patient-level. No SOURCES_local.md entry needed."
 30,import_clean_fibro_master.sas,sas_program,KEEP,legacy/sas,,,
 31,make_MT_educ_stacked_bars.sas,sas_program,KEEP,legacy/sas,,,
 32,plot_MT_educ_stacked_bars.R,r_program,KEEP,legacy/R,,,
 33,race_variable_cheks_Oct_6_2026_GJG.sas,sas_program,KEEP,legacy/sas,,,
 34,results_MT_Aug_25_2026.doc,word,ARCHIVE,archive/old_versions/docs,,,
 35,results_MT_Aug_27_2026_mortality_model.doc,word,KEEP,docs/reference,,,
-36,results_MT_Oct_27_2026_GJG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
-37,results_MT_Oct_6_2026.rtf,word,ARCHIVE,archive/old_versions/docs,,,
+36,results_MT_Oct_27_2026_GJG.sas,sas_program,ARCHIVE,archive/old_versions/sas,KEEP,legacy/sas,Newest results.sas by filename date (Oct 27 = most recent). Gerard confirmed KEEP.
+37,results_MT_Oct_6_2026.rtf,word,ARCHIVE,archive/old_versions/docs,KEEP,docs/reference,Newest results.rtf by filename date (Oct 6 > Sept 30). Gerard confirmed KEEP. .rtf is git-ignored.
 38,results_MT_Oct_6_2026_GJG.sas,sas_program,ARCHIVE,archive/old_versions/sas,,,
 39,results_MT_Sept_25_2026.doc,word,KEEP,docs/reference,,,
 40,results_MT_Sept_25_2026_LOS_ICU.doc,word,ARCHIVE,archive/old_versions/docs,,,
 41,results_MT_Sept_25_2026_LOS_ICU_with_highlights.docx,word,KEEP,docs/reference,,,
 42,results_MT_Sept_25_2026_with_hightlights.docx,word,KEEP,docs/reference,,,
 43,results_MT_Sept_26_2026_LOS_ICU.doc,word,KEEP,docs/reference,,,
-44,results_MT_Sept_30_2026.rtf,word,KEEP,docs/reference,,,
-45,results_MT_Sept_30_2026_GJG.sas,sas_program,KEEP,legacy/sas,,,
+44,results_MT_Sept_30_2026.rtf,word,KEEP,docs/reference,ARCHIVE,archive/old_versions/docs,Older results.rtf (Sept 30 < Oct 6). Gerard confirmed ARCHIVE; Oct 6 version is the keeper.
+45,results_MT_Sept_30_2026_GJG.sas,sas_program,KEEP,legacy/sas,ARCHIVE,archive/old_versions/sas,Older results.sas (Sept 30 < Oct 27). Gerard confirmed ARCHIVE; Oct 27 version is the keeper.
 46,sasrtf.rtf,word,KEEP,docs/reference,,,

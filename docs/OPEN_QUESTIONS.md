@@ -34,14 +34,13 @@ MRN/encounter). Is there a crosswalk on P:? · Gerard · OPEN
 ## Definitions carried over from the PeCAN work
 
 **Q-07 · MT_EDUC_GROUP, MT_ASA, MT_Frailty_Score definitions**
-Defined in `create_data_MT_Sept_30_2026_GJG.sas` (PeCAN). `20_mt_stacked_bars_data.sas` uses
-placeholder cut points (education 0–8/9–11/12/13–15/16/17–18/19+; ASA ≥ 2; frailty ≥ 3).
-Phase 1 FOUND this program in _inbox — it will be moved to legacy/sas in Phase 1 Plan 04.
-The copy in _inbox references P:\PeCAN Master Data\Garvan\Mackenzie_Topper (not I:\), so
-the canonical copy on the work PC is at P:\PeCAN Master Data\Garvan\Mackenzie_Topper\.
-Phase 2: confirm cut points match the placeholder values; update 00_config.sas if they differ.
-Note: `create_data_MT_Sept_30_2026_GJG.sas` was NOT among the I:\ references (those were
-the Aug/Sept CWG versions); it already used P:\. · Phase 2 · PARTIALLY RESOLVED
+Phase 1 found TWO relevant programs in _inbox — BOTH will be moved to legacy/sas (Plan 04):
+  - `create_data_MT_Oct_28_2026_GJG.sas` — current definitions file (newest by filename date, confirmed by Gerard)
+  - `create_data_MT_Sept_30_2026_GJG.sas` — kept alongside for Phase 2 diff
+Phase 2 action: diff Oct 28 vs Sept 30 to find any changes to MT_EDUC_GROUP, MT_ASA,
+and MT_Frailty_Score cut points. Update 00_config.sas placeholder values if they differ
+from (education 0-8/9-11/12/13-15/16/17-18/19+; ASA >= 2; frailty >= 3).
+Both programs reference P:\PeCAN Master Data\Garvan\Mackenzie_Topper (not I:\). · Phase 2 · PARTIALLY RESOLVED
 
 **Q-08 · Which mortality window does the deck use?**
 Slides say "Died 725 (4.8%)" with no window; the % died charts disagree with each other at
