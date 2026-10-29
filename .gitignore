@@ -1,0 +1,41 @@
+# Working areas (home PC only)
+_inbox/*
+!_inbox/.gitkeep
+archive/
+
+# Data and binary documents never go in the repo
+*.sas7bdat
+*.sas7bcat
+*.sas7bvew
+*.xpt
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+!docs/inventory/*.csv
+*.tsv
+*.rds
+*.RData
+*.rda
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.rtf
+*.pdf
+*.png
+*.jpg
+*.zip
+
+# SAS / R byproducts
+*.log
+*.lst
+*.egp
+.Rhistory
+.Rproj.user/
+.RData
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

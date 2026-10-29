@@ -1,0 +1,9 @@
+{
+  "mode": "interactive",
+  "parallelization": false,
+  "commit_docs": true,
+  "granularity": "standard",
+  "workflow": {
+    "_auto_chain_active": false
+  }
+}
