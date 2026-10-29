@@ -183,9 +183,16 @@ def main():
             if not os.path.exists(src):
                 exp_hash = expected.get(rid, "")
                 recovered = None
-                stem, ext = os.path.splitext(t)
-                alt = f"{stem}__{rid}{ext}"
-                for candidate in (t, alt):
+                # Check both the clash-resolved name (t) AND the original plain target,
+                # plus their __<id> variants, because the previous run may have placed
+                # the file at any of these locations.
+                stem_t, ext_t = os.path.splitext(t)
+                # target is the original (pre-clash) destination
+                stem_orig, ext_orig = os.path.splitext(target)
+                candidates = [t, f"{stem_t}__{rid}{ext_t}"]
+                if target != t:
+                    candidates += [target, f"{stem_orig}__{rid}{ext_orig}"]
+                for candidate in candidates:
                     if os.path.exists(candidate) and exp_hash and sha256(candidate) == exp_hash:
                         recovered = candidate
                         break
