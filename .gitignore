@@ -39,3 +39,21 @@ archive/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# D-14: legacy/ whitelist — only code files tracked; data/binary files ignored
+legacy/**
+!legacy/**/
+!legacy/**/*.sas
+!legacy/**/*.R
+!legacy/**/*.r
+!legacy/**/*.Rmd
+!legacy/**/*.py
+!legacy/**/*.sql
+!legacy/**/*.md
+!legacy/**/.gitkeep
+
+# D-14: docs/reference/ whitelist — only .md tracked; all binary docs ignored
+docs/reference/**
+!docs/reference/**/
+!docs/reference/**/*.md
+!docs/reference/.gitkeep
