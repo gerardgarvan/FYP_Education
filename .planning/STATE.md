@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-02-PLAN.md (inventory scan, 46 files, sets-equal)
-last_updated: "2026-10-29T02:53:14.535Z"
+stopped_at: Completed 01-03-PLAN.md (zero REVIEW, dry run exits 0, ORG-05 gate satisfied)
+last_updated: "2026-10-29T03:06:06.579Z"
 last_activity: 2026-10-29
 progress:
   total_phases: 8
   completed_phases: 0
   total_plans: 4
-  completed_plans: 2
+  completed_plans: 3
   percent: 0
 ---
 
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-10-28)
 ## Current Position
 
 Phase: 01 (inventory-triage) — EXECUTING
-Plan: 3 of 4
+Plan: 4 of 4
 Status: Ready to execute
 Last activity: 2026-10-29
 
@@ -41,6 +41,9 @@ See `docs/DECISIONS.md` (D-01 to D-05 seeded at initialization).
 - [Phase 01-inventory-triage]: REF_RE requires quotes on both sides; bare identifiers excluded from reference capture
 - [Phase 01-inventory-triage]: outfile=/out= prefixed as 'out:' in paths_referenced so post-scan excludes write targets from missing check
 - [Phase 01]: Flat _inbox/ layout accepted (no named subfolders); fyp_*.sas7bdat confirmed as results tables not patient data; I:\ refs are old P: drive letter, not real gaps
+- [Phase 01-inventory-triage]: D-06: I:\ and P:\ are the same share; legacy I:\ paths rewritten in Phase 2
+- [Phase 01-inventory-triage]: create_data Oct28+Sept30 both KEEP in legacy/sas for Phase 2 diff (Q-07 cut points)
+- [Phase 01-inventory-triage]: results.rtf/sas: Oct picks (Oct6, Oct27) are keepers; Sept30 versions archived
 
 ### Pending Todos
 
@@ -58,6 +61,6 @@ See `docs/DECISIONS.md` (D-01 to D-05 seeded at initialization).
 
 ## Session Continuity
 
-Last session: 2026-10-29T02:53:14.530Z
-Stopped at: Completed 01-02-PLAN.md (inventory scan, 46 files, sets-equal)
+Last session: 2026-10-29T03:06:06.573Z
+Stopped at: Completed 01-03-PLAN.md (zero REVIEW, dry run exits 0, ORG-05 gate satisfied)
 Resume file: None

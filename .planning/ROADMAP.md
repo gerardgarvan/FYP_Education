@@ -35,7 +35,7 @@ Gerard runs them in SAS on the work PC and the log is reviewed.
 **Plans**: 4 plans
 - [x] 01-01-PLAN.md — Harden inventory.py (D-05) and apply_file_map.py (D-19); smoke-test both
 - [x] 01-02-PLAN.md — Confirm SOURCES.md, run the scan, review duplicates/versions/data and missing references
-- [ ] 01-03-PLAN.md — Resolve REVIEW rows (Claude then Gerard), approve file_map.csv, clean dry run
+- [x] 01-03-PLAN.md — Resolve REVIEW rows (Claude then Gerard), approve file_map.csv, clean dry run
 - [ ] 01-04-PLAN.md — Apply the map, verify moves, close .gitignore (D-14), PHI scan, Phase 1 commit
 **Gate**: Human approval of `file_map.csv` before `--apply`
 
